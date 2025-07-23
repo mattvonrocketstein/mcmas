@@ -1,0 +1,40 @@
+-- State 0 --
+  Agent Environment
+    stoplight=stop
+  Agent Car1
+    state=stopped
+  Agent Car2
+    state=stopped
+
+-- State 1 --
+  Agent Environment
+    stoplight=go
+  Agent Car1
+    state=stopped
+  Agent Car2
+    state=stopped
+
+-- State 2 --
+  Agent Environment
+    stoplight=stop
+  Agent Car1
+    state=moving
+  Agent Car2
+    state=stopped
+
+-- State 3 --
+  Agent Environment
+    stoplight=stop
+  Agent Car1
+    state=moving
+  Agent Car2
+    state=moving
+
+-- State 4 --
+  Agent Environment
+    stoplight=stop
+  Agent Car1
+    state=stopped
+  Agent Car2
+    state=moving
+
