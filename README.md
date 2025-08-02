@@ -2,6 +2,41 @@
 
 A mirror of the [MCMAS project](https://sail.doc.ic.ac.uk/software/mcmas/).
 
-MCMAS is a model checker for multi-agent systems that supports temporal epistemic logic.  MAS descriptions are given by means of programs written in the ISPL language.  ISPL is an agent-based, modular language inspired by interpreted systems, a popular semantics.  It describes things like: agents, groups, environments, states, evolutions, protocols, and fairness.  Temporal logic operators include AG/EF/AX. Epistemic logic supports K/GK/GCK/DK.  See the [docs folder](docs/) for manuals, [original README](README) for credits.
+MCMAS is a model checker for multi-agent systems that supports temporal epistemic logic.  MAS descriptions are given by means of programs written in the ISPL language.  ISPL is an agent-based, modular language inspired by interpreted systems, a popular semantics.  It describes things like: agents, groups, environments, states, evolutions, protocols, and fairness.  Temporal logic operators include `AG`/`EF`/`AX`. Epistemic logic supports `K`/`GK`/`GCK`/`DK`.  
 
-Currently pinned to v1.3.0, which **does not compile** for recent versions of linux without downgrading bison.  See [docker-mcmas.git](https://github.com/mattvonrocketstein/docker-mcmas) repository for a docker container.  See [py-mcmas.git](https://github.com/mattvonrocketstein/py-mcmas) repository for a (experimental, work-in-progress) wrapper.
+Currently pinned to `v1.3.0`, which **does not compile** for recent versions of linux without downgrading bison.  
+
+See Also
+
+* [docker-mcmas.git](https://github.com/mattvonrocketstein/docker-mcmas) repository for a docker container.  
+* [py-mcmas.git](https://github.com/mattvonrocketstein/py-mcmas) repository for a (experimental, work-in-progress) wrapper.
+* The [docs folder](docs/) and especially [the manual](docs/manual.pdf)
+
+# Original README
+
+```
+/* ************************************************************************
+ *            MCMAS -- Model Checker for Multi-Agent Systems
+ *
+ *     Copyright (C) 2007-2017
+ *     Jeremy Kong, Alessio Lomuscio, Hongyang Qu and Franco Raimondi
+ *     This program is free software; you can redistribute it and/or modify
+ *     it under the terms of the GNU General Public License as published by
+ *     the Free Software Foundation; either version 2 of the License, or
+ *     (at your option) any later version.
+ *     This program is distributed in the hope that it will be useful,
+ *     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *     GNU General Public License for more details.
+ * 
+ *   You should have received a copy of the GNU General Public License
+ *   along with this program; if not, write to the Free Software
+ *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ **************************************************************************/
+
+Please see the documents available under the doc/ directory.
+In particular:
+- doc/installation_guide.pdf provides installation instructions;
+- doc/manual.pdf provides a user manual.
+```
